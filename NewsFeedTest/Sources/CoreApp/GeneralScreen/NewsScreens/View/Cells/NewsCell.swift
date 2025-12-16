@@ -48,7 +48,7 @@ final class NewsCell: UICollectionViewCell {
 
     private lazy var newsImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleToFill
+        imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         imageView.backgroundColor = .clear
