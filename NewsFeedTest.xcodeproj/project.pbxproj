@@ -10,7 +10,6 @@
 		93ADC64B2EF179B800AB8C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC64A2EF179B800AB8C58 /* AppDelegate.swift */; };
 		93ADC64D2EF179B800AB8C58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC64C2EF179B800AB8C58 /* SceneDelegate.swift */; };
 		93ADC64F2EF179B800AB8C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC64E2EF179B800AB8C58 /* ViewController.swift */; };
-		93ADC6522EF179B800AB8C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ADC6502EF179B800AB8C58 /* Main.storyboard */; };
 		93ADC6542EF179B900AB8C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ADC6532EF179B900AB8C58 /* Assets.xcassets */; };
 		93ADC6572EF179B900AB8C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ADC6552EF179B900AB8C58 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		93ADC64A2EF179B800AB8C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93ADC64C2EF179B800AB8C58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		93ADC64E2EF179B800AB8C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93ADC6512EF179B800AB8C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93ADC6532EF179B900AB8C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93ADC6562EF179B900AB8C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93ADC6582EF179B900AB8C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				93ADC6552EF179B900AB8C58 /* LaunchScreen.storyboard */,
-				93ADC6502EF179B800AB8C58 /* Main.storyboard */,
 				93ADC6532EF179B900AB8C58 /* Assets.xcassets */,
 				93ADC6622EF17A0700AB8C58 /* Configuration */,
 			);
@@ -170,7 +167,6 @@
 			files = (
 				93ADC6572EF179B900AB8C58 /* LaunchScreen.storyboard in Resources */,
 				93ADC6542EF179B900AB8C58 /* Assets.xcassets in Resources */,
-				93ADC6522EF179B800AB8C58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +186,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93ADC6502EF179B800AB8C58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93ADC6512EF179B800AB8C58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93ADC6552EF179B900AB8C58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -215,7 +203,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
 				DEVELOPMENT_TEAM = 6U62DU83J9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsFeedTest/Resources/Configuration/Info.plist;
@@ -223,7 +211,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -231,7 +218,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fedor.NewsFeedTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -250,7 +237,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
 				DEVELOPMENT_TEAM = 6U62DU83J9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsFeedTest/Resources/Configuration/Info.plist;
@@ -258,7 +245,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -266,7 +252,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fedor.NewsFeedTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
